@@ -13,6 +13,8 @@ public class UserInput {
     public static String firstName, lastName, age, email, mobileNumber, address, gender;
 
     public static void takeInput() {
+
+        System.out.println();
         firstName = InputPrompt.requestInput("Enter your first name: ", new Scanner(System.in));
         lastName = InputPrompt.requestInput("Enter your last name: ", new Scanner(System.in));
         age = InputPrompt.requestInput("Enter Your age: ", new Scanner(System.in));
